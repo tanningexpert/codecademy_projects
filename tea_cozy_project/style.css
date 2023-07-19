@@ -59,7 +59,7 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    opacity: 0.9;
+    opacity: 0.6;
 }
 
 .missionText {
@@ -91,6 +91,17 @@ li {
     height: 200px;
     width: 300px;
     margin-bottom: 0;
+    opacity: 0.6;
+}
+
+.teaImageWrapper {
+    line-height: 0;
+
+}
+
+.teaImageWrapper:hover {
+    background-color: white;
+    z-index: 10;
 }
 
 .teaWrapper h5 {

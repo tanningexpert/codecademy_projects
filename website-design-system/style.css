@@ -1,0 +1,86 @@
+body {
+    width: 90%;
+    margin: auto;
+    font-family: sans-serif ;
+}
+
+.sectionContainer {
+    border: 2px solid gray;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+/* COLORS: COOLORS.CO */
+.colorContainer {
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.colorPanel {
+    flex-basis: 30%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cadetGray {
+    background-color: #93A3B1;
+
+    
+}
+
+.battleshipGray {
+    background-color: #7C898B;
+
+}
+
+.dimGray {
+    background-color: #636564;
+
+}
+
+.teaGreen {
+    background-color: #C5DCA0;
+}
+
+.taupe {
+    background-color: #4C443C;
+    color: #fff;
+}
+
+.bistre {
+    background-color: #322214;
+    color: white;
+}
+/* FONTS FONTS.GOOGLE.COM*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montez&family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Red+Hat+Mono:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+.allFontsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fontContainer {
+    flex-basis: 45%;
+}
+
+.montserratRegular {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.redHatMono {
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.montezRegular {
+    font-family: 'Montez', cursive;
+}
+
+
+
+
+/* TEXT STYLES */
+
+/* BUTTONS */
