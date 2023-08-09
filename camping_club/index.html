@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian's Camping Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile-style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<!--NAV AND SEARCH MENU-->
+<div id="top-nav-bar-container">
+    <div id="logo-search-menu-wrapper">
+        <div class="logo-text-div">
+            <img class="nps-logo" src="img/logo.png">
+            <a class="nps-home-link" href="#">National Park Service</a>
+        </div>
+        <div class="search-menu-div">
+            <div class="search-btn" id="search-btn">Search</div>
+            <!--KEYWORD SEARCH WITH BUTTONS-->
+            <div class="search-btn-wrapper" id="search-btn-wrapper">
+                <form>
+                    <input type="text" id="keyword-search" name="keyword-search" placeholder="Keyword Search">
+                </form>
+                <button>This Site</button>
+                <button>All NPS</button>
+            </div>
+            <div class="top-menu"><ion-icon name="menu-outline"></ion-icon> Menu</div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--PAGE BANNER-->
+<div id="banner">
+    <div id="overlay">
+        <div class="overlay-content">
+            <a href="#">Big Bend</a>
+            <div class="park-location">
+                <p>National Park</p>
+                <p>Texas</p>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-nav-container">
+        <div class="overlay-nav">
+            <ul>
+                <li><div class="overlay-nav-link"><a href="#">Plan Your Visit<ion-icon name="caret-down-outline"></ion-icon></a>
+                    <div class="overlay-sub-nav-container">
+                        <a href="#">Suggested Iteneraries</a>
+                        <a href="#">Basic Information</a>
+                        <a href="#">Directions & Transportation</a>
+                        <a href="#">Eating & Sleeping</a>
+                        <a href="#">Places To Go</a>
+                        <a href="#">Things To Do </a>
+                    </div>
+                </div>
+                </li>
+                <li><div class="overlay-nav-link"><a href="#">Learn About the Park<ion-icon name="caret-down-outline"></ion-icon></a></div></li>
+                <li><div class="overlay-nav-link"><a href="#">Get Involved<ion-icon name="caret-down-outline"></ion-icon></a></div></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!--MAIN BODY-->
+<div id="page-intro">
+    <h1 class="page-title park-title">Splendid Isolation: Big Bend</h1>
+    <p>There is a place in Far West Texas where night skies are dark as coal and rivers carve temple-like canyons in ancient limestone. Here, at the end of the road, hundreds of bird species take refuge in a solitary mountain range surrounded by weather-beaten desert. Tenacious cactus bloom in sublime southwestern sun, and species diversity is the best in the country. This magical place is Big Bend...</p>
+</div>
+
+<!--FEATURED PAGES GRID-->
+<div class="top-feature-wrapper">
+    <div class="plan-img-text-wrapper top-feature">
+        <a href="#">
+        <img src="img/plan-your-visit.jpeg">
+        <div class="top-feature-header">Plan Your Visit</div>
+        </a>
+        <p class="top-feature-description">Outdoor adventure, wide open spaces, camping, hiking, scenic drives. Where to begin?</p>
+    </div>
+    <div class="learn-img-text-wrapper top-feature">
+        <a href="#">
+        <img src="img/learn.jpeg">
+        <div class="top-feature-header">Learn About Your Park</div>
+        </a>
+        <p class="top-feature-description">Nature, History, Plants, Geology, Fossils, Birds, and more! What's So Special About Big Bend?</p>
+    </div>
+</div>
+
+<!-- GRID -->
+<div id="grid-container">
+    <div class="grid-item-container">
+        <a href="#">
+            <img src="img/top-ten.jpeg">
+            <div class="grid-item-header">Big Bend Top Ten Tips</div>
+        </a>
+        <div class="grid-item-description">Be prepared for summer in the desert. Remote, beautiful, and HOT.</div>
+    </div>
+    <div class="grid-item-container">
+        <a href="#">
+            <img src="img/current-conditions.jpeg">
+            <div class="grid-item-header">Current Condition</div>
+        </a>
+        <div class="grid-item-description">Current weather, river levels, webcam view, visibility, and air quality readings.</div>
+    </div>
+    <div class="grid-item-container">
+        <a href="#">
+            <img src="img/itinerary.jpeg">
+            <div class="grid-item-header">Suggested Itineraries</div>
+        </a>
+        <div class="grid-item-description">Big Bend has lots to explore! Use these suggested itineraries to help get the most out of your visit.</div>
+    </div>
+    <div class="grid-item-container">
+        <a href="#">
+            <img src="img/camping.jpeg ">
+            <div class="grid-item-header">Big Bend Camping</div>
+        </a>
+        <div class="grid-item-description">There are four developed campgrounds in Big Bend National Park, and primitive backcountry camping too.
+
+        </div>
+    </div>
+    <div class="grid-item-container">
+        <a href="#">
+            <img src="img/day-hikes.jpeg">
+            <div class="grid-item-header">Day Hikes</div>
+        </a>
+        <div class="grid-item-description">Big Bend is a hiker's paradise. More than 150 miles of desert and mountains trails to explore!</div>
+    </div>
+    <div class="grid-item-container">
+        <a href="#">
+            <img src="img/nature.jpeg">
+            <div class="grid-item-header">Nature</div>
+        </a>
+        <div class="grid-item-description">Delve into the park's flora and fauna, geology, ecosystems, and other natural features.</div>
+    </div>
+    <div class="grid-item-container">
+        <a href="#">
+            <img src="img/birds.jpeg">
+            <div class="grid-item-header">Big Bend Birds</div>
+        </a>
+        <div class="grid-item-description">Big Bend is a world-famous location for birds and birdwatching. Learn more about the feathered wonders of Big Bend.</div>
+    </div>
+    <div class="grid-item-container">
+        <a href="#">
+            <img src="img/drives.jpeg">
+            <div class="grid-item-header">Scenic Drives</div>
+        </a>
+        <div class="grid-item-description">Hit the road and explore the park's gorgeous vistas. Paved highways and dirt roads provide access to an incredible array of experiences.</div>
+    </div>
+    <div class="grid-item-container">
+        <a href="#">
+            <img src="img/bookstore.jpeg">
+            <div class="grid-item-header">Park Bookstore</div>
+        </a>
+        <div class="grid-item-description">Prepare for your visit and learn about the park with books, maps, and guides from the Big Bend Natural History Association.</div>
+    </div>
+</div>
+<!-- ICONS -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

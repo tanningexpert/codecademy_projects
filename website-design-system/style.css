@@ -10,7 +10,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* COLORS: COOLORS.CO */
+/* COLORS: COOLORS.CO OR https://color.adobe.com/explore */
 .colorContainer {
     padding-bottom: 10px;
     display: flex;
@@ -66,7 +66,7 @@ body {
     flex-basis: 45%;
 }
 
-.montserratRegular {
+.montserrat {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -74,10 +74,17 @@ body {
     font-family: 'Red Hat Mono', monospace;
 }
 
-.montezRegular {
+.montez {
     font-family: 'Montez', cursive;
 }
 
+.bold {
+    font-weight: 700;
+}
+
+.thin {
+    font-weight: 300;
+}
 
 
 
